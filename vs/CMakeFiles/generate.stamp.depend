@@ -1,0 +1,34 @@
+# CMake generation dependency list for this directory.
+C:/Users/jharr/Desktop/cxx/spoofydoodle/CMakeLists.txt
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindGLFW.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindPackageMessage.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/CMakeParseArguments.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindOpenGL.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindPackageMessage.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/CMakeParseArguments.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindX11.cmake
+C:/Users/jharr/Desktop/cxx/spoofydoodle/vs/CMakeFiles/3.6.0/CMakeSystem.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/jharr/Desktop/cxx/spoofydoodle/vs/CMakeFiles/3.6.0/CMakeCCompiler.cmake
+C:/Users/jharr/Desktop/cxx/spoofydoodle/vs/CMakeFiles/3.6.0/CMakeCXXCompiler.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/CMakeGenericSystem.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/Platform/Windows.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/CMakeCInformation.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/Platform/Windows-MSVC.cmake
+C:/Users/jharr/Desktop/cxx/spoofydoodle/vs/CMakeFiles/3.6.0/CMakeRCCompiler.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/CMakeRCInformation.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/CMakeCXXInformation.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake

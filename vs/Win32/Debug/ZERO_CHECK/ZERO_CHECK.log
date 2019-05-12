@@ -1,0 +1,130 @@
+﻿  Checking Build System
+  CMake is re-running because C:/Users/jharr/Desktop/cxx/spoofydoodle/vs/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Users/jharr/Desktop/cxx/spoofydoodle/CMakeLists.txt'
+    is newer than 'C:/Users/jharr/Desktop/cxx/spoofydoodle/vs/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Boost version: 1.61.0
+  -- Could NOT find GLFW (missing:  GLFW_INCLUDE_DIR GLFW_LIBRARIES) 
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:946 ] _boost_TEST_VERSIONS = 1.61.0;1.61
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:948 ] Boost_USE_MULTITHREADED = TRUE
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:950 ] Boost_USE_STATIC_LIBS = OFF
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:952 ] Boost_USE_STATIC_RUNTIME = OFF
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:954 ] Boost_ADDITIONAL_VERSIONS = 
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:956 ] Boost_NO_SYSTEM_PATHS = 
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:1024 ] Declared as CMake or Environmental Variables:
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:1026 ]   BOOST_ROOT = C:/Users/jharr/Desktop/cxx/boost_1_61_0
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:1028 ]   BOOST_INCLUDEDIR = C:/Users/jharr/Desktop/cxx/boost_1_61_0/boost
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:1030 ]   BOOST_LIBRARYDIR = C:/Users/jharr/Desktop/cxx/boost_1_61_0/stage/lib
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:1032 ] _boost_TEST_VERSIONS = 1.61.0;1.61
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:1101 ] Include debugging info:
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:1103 ]   _boost_INCLUDE_SEARCH_DIRS = C:/Users/jharr/Desktop/cxx/boost_1_61_0/boost;C:/Users/jharr/Desktop/cxx/boost_1_61_0/include;C:/Users/jharr/Desktop/cxx/boost_1_61_0;PATHS;C:/boost/include;C:/boost;/sw/local/include
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:1105 ]   _boost_PATH_SUFFIXES = boost-1_61_0;boost_1_61_0;boost/boost-1_61_0;boost/boost_1_61_0;boost-1_61;boost_1_61;boost/boost-1_61;boost/boost_1_61
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:1125 ] location of version.hpp: C:/Users/jharr/Desktop/cxx/boost_1_61_0/boost/version.hpp
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:1149 ] version.hpp reveals boost 1.61.0
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:1235 ] guessed _boost_COMPILER = 
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:1245 ] _boost_MULTITHREADED = -mt
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:1288 ] _boost_RELEASE_ABI_TAG = -
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:1290 ] _boost_DEBUG_ABI_TAG = -d
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:1344 ] _boost_LIBRARY_SEARCH_DIRS_RELEASE = C:/Users/jharr/Desktop/cxx/boost_1_61_0/stage/lib;C:/Users/jharr/Desktop/cxx/boost_1_61_0/lib;C:/Users/jharr/Desktop/cxx/boost_1_61_0/stage/lib;C:/Users/jharr/Desktop/cxx/boost_1_61_0/lib;C:/Users/jharr/Desktop/cxx/boost_1_61_0/../lib;C:/Users/jharr/Desktop/cxx/boost_1_61_0/stage/lib;PATHS;C:/boost/lib;C:/boost;/sw/local/lib_boost_LIBRARY_SEARCH_DIRS_DEBUG   = C:/Users/jharr/Desktop/cxx/boost_1_61_0/stage/lib;C:/Users/jharr/Desktop/cxx/boost_1_61_0/lib;C:/Users/jharr/Desktop/cxx/boost_1_61_0/stage/lib;C:/Users/jharr/Desktop/cxx/boost_1_61_0/lib;C:/Users/jharr/Desktop/cxx/boost_1_61_0/../lib;C:/Users/jharr/Desktop/cxx/boost_1_61_0/stage/lib;PATHS;C:/boost/lib;C:/boost;/sw/local/lib
+  -- [ C:/Program Files/Git/mingw64/share/cmake-3.6/Modules/FindBoost.cmake:1595 ] Boost_FOUND = 1
+  -- Boost version: 1.61.0
+  -- Boost found!
+  CMake Warning (dev) at CMakeLists.txt:141 (link_directories):
+    This command specifies the relative path
+  
+      ../boost_1_61_0/stage/lib
+  
+    as a link directory.
+  
+    Policy CMP0015 is not set: link_directories() treats paths relative to the
+    source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+    cmake_policy command to set the policy and suppress this warning.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:141 (link_directories):
+    This command specifies the relative path
+  
+      ./libs
+  
+    as a link directory.
+  
+    Policy CMP0015 is not set: link_directories() treats paths relative to the
+    source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+    cmake_policy command to set the policy and suppress this warning.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:141 (link_directories):
+    This command specifies the relative path
+  
+      ./libs/Windows
+  
+    as a link directory.
+  
+    Policy CMP0015 is not set: link_directories() treats paths relative to the
+    source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+    cmake_policy command to set the policy and suppress this warning.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:141 (link_directories):
+    This command specifies the relative path
+  
+      ./libs/Windows/freetype-2.6.5
+  
+    as a link directory.
+  
+    Policy CMP0015 is not set: link_directories() treats paths relative to the
+    source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+    cmake_policy command to set the policy and suppress this warning.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:141 (link_directories):
+    This command specifies the relative path
+  
+      ./libs/Windows/glew-2.0.0
+  
+    as a link directory.
+  
+    Policy CMP0015 is not set: link_directories() treats paths relative to the
+    source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+    cmake_policy command to set the policy and suppress this warning.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:141 (link_directories):
+    This command specifies the relative path
+  
+      ./libs/Windows/glfw-lib-vc2015
+  
+    as a link directory.
+  
+    Policy CMP0015 is not set: link_directories() treats paths relative to the
+    source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+    cmake_policy command to set the policy and suppress this warning.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:141 (link_directories):
+    This command specifies the relative path
+  
+      ./libs/Windows/glew-2.0.0/Win32
+  
+    as a link directory.
+  
+    Policy CMP0015 is not set: link_directories() treats paths relative to the
+    source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+    cmake_policy command to set the policy and suppress this warning.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:141 (link_directories):
+    This command specifies the relative path
+  
+      ./libs/Windows/glew-2.0.0/x64
+  
+    as a link directory.
+  
+    Policy CMP0015 is not set: link_directories() treats paths relative to the
+    source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+    cmake_policy command to set the policy and suppress this warning.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/jharr/Desktop/cxx/spoofydoodle/vs

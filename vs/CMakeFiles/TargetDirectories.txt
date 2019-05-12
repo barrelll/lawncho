@@ -1,0 +1,4 @@
+C:/Users/jharr/Desktop/cxx/spoofydoodle/vs/CMakeFiles/test_impl.dir
+C:/Users/jharr/Desktop/cxx/spoofydoodle/vs/CMakeFiles/RUN_TESTS.dir
+C:/Users/jharr/Desktop/cxx/spoofydoodle/vs/CMakeFiles/ALL_BUILD.dir
+C:/Users/jharr/Desktop/cxx/spoofydoodle/vs/CMakeFiles/ZERO_CHECK.dir

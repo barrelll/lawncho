@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E934B04B-AB7E-3DFC-885B-747A2CA2258F}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>test_impl</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\jharr\Desktop\cxx\spoofydoodle\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">test_impl.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">test_impl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\jharr\Desktop\cxx\spoofydoodle\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">test_impl.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">test_impl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\jharr\Desktop\cxx\spoofydoodle\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">test_impl.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">test_impl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\jharr\Desktop\cxx\spoofydoodle\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">test_impl.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">test_impl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jharr\Desktop\cxx\spoofydoodle\..\boost_1_61_0;C:\Users\jharr\Desktop\cxx\spoofydoodle\.\include;C:\Users\jharr\Desktop\cxx\spoofydoodle\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;BOOST_LIB_DIAGNOSTIC;BOOST_ALL_DYN_LINK;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;BOOST_LIB_DIAGNOSTIC;BOOST_ALL_DYN_LINK;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jharr\Desktop\cxx\spoofydoodle\..\boost_1_61_0;C:\Users\jharr\Desktop\cxx\spoofydoodle\.\include;C:\Users\jharr\Desktop\cxx\spoofydoodle\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jharr\Desktop\cxx\spoofydoodle\..\boost_1_61_0;C:\Users\jharr\Desktop\cxx\spoofydoodle\.\include;C:\Users\jharr\Desktop\cxx\spoofydoodle\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;glfw3.lib;opengl32.lib;glew32s.lib;freetyped.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\jharr\Desktop\cxx\boost_1_61_0\stage\lib;C:\Users\jharr\Desktop\cxx\boost_1_61_0\stage\lib\$(Configuration);C:\Users\jharr\Desktop\cxx\spoofydoodle\libs;C:\Users\jharr\Desktop\cxx\spoofydoodle\libs\$(Configuration);C:\Users\jharr\Desktop\cxx\spoofydoodle\libs\Windows;C:\Users\jharr\Desktop\cxx\spoofydoodle\libs\Windows\$(Configuration);C:\Users\jharr\Desktop\cxx\spoofydoodle\libs\Windows\freetype-2.6.5;C:\Users\jharr\Desktop\cxx\spoofydoodle\libs\Windows\freetype-2.6.5\$(Configuration);C:\Users\jharr\Desktop\cxx\spoofydoodle\libs\Windows\glew-2.0.0;C:\Users\jharr\Desktop\cxx\spoofydoodle\libs\Windows\glew-2.0.0\$(Configuration);C:\Users\jharr\Desktop\cxx\spoofydoodle\libs\Windows\glfw-lib-vs2015-32;C:\Users\jharr\Desktop\cxx\spoofydoodle\libs\Windows\glfw-lib-vs2015-32\$(Configuration);C:\Users\jharr\Desktop\cxx\spoofydoodle\libs\Windows\glew-2.0.0\Win32\$(Configuration);C:\Users\jharr\Desktop\cxx\spoofydoodle\libs\Windows\glew-2.0.0\Win32\;C:\Users\jharr\Desktop\cxx\spoofydoodle\libs\Windows\glew-2.0.0\x64;C:\Users\jharr\Desktop\cxx\spoofydoodle\libs\Windows\glew-2.0.0\x64\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/jharr/Desktop/cxx/spoofydoodle/vs/Debug/test_impl.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jharr/Desktop/cxx/spoofydoodle/bin/Debug/test_impl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jharr\Desktop\cxx\spoofydoodle\..\boost_1_61_0;C:\Users\jharr\Desktop\cxx\spoofydoodle\.\include;C:\Users\jharr\Desktop\cxx\spoofydoodle\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_LIB_DIAGNOSTIC;BOOST_ALL_DYN_LINK;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_LIB_DIAGNOSTIC;BOOST_ALL_DYN_LINK;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jharr\Desktop\cxx\spoofydoodle\..\boost_1_61_0;C:\Users\jharr\Desktop\cxx\spoofydoodle\.\include;C:\Users\jharr\Desktop\cxx\spoofydoodle\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jharr\Desktop\cxx\spoofydoodle\..\boost_1_61_0;C:\Users\jharr\Desktop\cxx\spoofydoodle\.\include;C:\Users\jharr\Desktop\cxx\spoofydoodle\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;-lglfw3;-lXxf86vm;-pthread;-ldl;-lXrandr;-lGLEW;-lXcursor;-lXi;-lXinerama;-lfreetype</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../boost_1_61_0/stage/lib;../boost_1_61_0/stage/lib/$(Configuration);./libs;./libs/$(Configuration);./libs/Windows;./libs/Windows/$(Configuration);./libs/Windows/freetype-2.6.5;./libs/Windows/freetype-2.6.5/$(Configuration);./libs/Windows/glew-2.0.0;./libs/Windows/glew-2.0.0/$(Configuration);./libs/Windows/glfw-lib-vc2015;./libs/Windows/glfw-lib-vc2015/$(Configuration);./libs/Windows/glew-2.0.0/Win32;./libs/Windows/glew-2.0.0/Win32/$(Configuration);./libs/Windows/glew-2.0.0/x64;./libs/Windows/glew-2.0.0/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/jharr/Desktop/cxx/spoofydoodle/vs/Release/test_impl.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jharr/Desktop/cxx/spoofydoodle/bin/Release/test_impl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jharr\Desktop\cxx\spoofydoodle\..\boost_1_61_0;C:\Users\jharr\Desktop\cxx\spoofydoodle\.\include;C:\Users\jharr\Desktop\cxx\spoofydoodle\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_LIB_DIAGNOSTIC;BOOST_ALL_DYN_LINK;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_LIB_DIAGNOSTIC;BOOST_ALL_DYN_LINK;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jharr\Desktop\cxx\spoofydoodle\..\boost_1_61_0;C:\Users\jharr\Desktop\cxx\spoofydoodle\.\include;C:\Users\jharr\Desktop\cxx\spoofydoodle\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jharr\Desktop\cxx\spoofydoodle\..\boost_1_61_0;C:\Users\jharr\Desktop\cxx\spoofydoodle\.\include;C:\Users\jharr\Desktop\cxx\spoofydoodle\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;-lglfw3;-lXxf86vm;-pthread;-ldl;-lXrandr;-lGLEW;-lXcursor;-lXi;-lXinerama;-lfreetype</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../boost_1_61_0/stage/lib;../boost_1_61_0/stage/lib/$(Configuration);./libs;./libs/$(Configuration);./libs/Windows;./libs/Windows/$(Configuration);./libs/Windows/freetype-2.6.5;./libs/Windows/freetype-2.6.5/$(Configuration);./libs/Windows/glew-2.0.0;./libs/Windows/glew-2.0.0/$(Configuration);./libs/Windows/glfw-lib-vc2015;./libs/Windows/glfw-lib-vc2015/$(Configuration);./libs/Windows/glew-2.0.0/Win32;./libs/Windows/glew-2.0.0/Win32/$(Configuration);./libs/Windows/glew-2.0.0/x64;./libs/Windows/glew-2.0.0/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/jharr/Desktop/cxx/spoofydoodle/vs/MinSizeRel/test_impl.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jharr/Desktop/cxx/spoofydoodle/bin/MinSizeRel/test_impl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jharr\Desktop\cxx\spoofydoodle\..\boost_1_61_0;C:\Users\jharr\Desktop\cxx\spoofydoodle\.\include;C:\Users\jharr\Desktop\cxx\spoofydoodle\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_LIB_DIAGNOSTIC;BOOST_ALL_DYN_LINK;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_LIB_DIAGNOSTIC;BOOST_ALL_DYN_LINK;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jharr\Desktop\cxx\spoofydoodle\..\boost_1_61_0;C:\Users\jharr\Desktop\cxx\spoofydoodle\.\include;C:\Users\jharr\Desktop\cxx\spoofydoodle\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jharr\Desktop\cxx\spoofydoodle\..\boost_1_61_0;C:\Users\jharr\Desktop\cxx\spoofydoodle\.\include;C:\Users\jharr\Desktop\cxx\spoofydoodle\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;-lglfw3;-lXxf86vm;-pthread;-ldl;-lXrandr;-lGLEW;-lXcursor;-lXi;-lXinerama;-lfreetype</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../boost_1_61_0/stage/lib;../boost_1_61_0/stage/lib/$(Configuration);./libs;./libs/$(Configuration);./libs/Windows;./libs/Windows/$(Configuration);./libs/Windows/freetype-2.6.5;./libs/Windows/freetype-2.6.5/$(Configuration);./libs/Windows/glew-2.0.0;./libs/Windows/glew-2.0.0/$(Configuration);./libs/Windows/glfw-lib-vc2015;./libs/Windows/glfw-lib-vc2015/$(Configuration);./libs/Windows/glew-2.0.0/Win32;./libs/Windows/glew-2.0.0/Win32/$(Configuration);./libs/Windows/glew-2.0.0/x64;./libs/Windows/glew-2.0.0/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/jharr/Desktop/cxx/spoofydoodle/vs/RelWithDebInfo/test_impl.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jharr/Desktop/cxx/spoofydoodle/bin/RelWithDebInfo/test_impl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jharr\Desktop\cxx\spoofydoodle\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/jharr/Desktop/cxx/spoofydoodle/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\Git\mingw64\bin\cmake.exe" -HC:/Users/jharr/Desktop/cxx/spoofydoodle -BC:/Users/jharr/Desktop/cxx/spoofydoodle/vs --check-stamp-file C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/jharr/Desktop/cxx/spoofydoodle/CMakeLists.txt;C:\Users\jharr\Desktop\cxx\spoofydoodle\CMakeLists.txt;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindBoost.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindGLFW.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindBoost.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindX11.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\3.6.0\CMakeSystem.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\3.6.0\CMakeCCompiler.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\3.6.0\CMakeCXXCompiler.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\3.6.0\CMakeRCCompiler.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/jharr/Desktop/cxx/spoofydoodle/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\Git\mingw64\bin\cmake.exe" -HC:/Users/jharr/Desktop/cxx/spoofydoodle -BC:/Users/jharr/Desktop/cxx/spoofydoodle/vs --check-stamp-file C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/jharr/Desktop/cxx/spoofydoodle/CMakeLists.txt;C:\Users\jharr\Desktop\cxx\spoofydoodle\CMakeLists.txt;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindBoost.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindGLFW.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindBoost.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindX11.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\3.6.0\CMakeSystem.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\3.6.0\CMakeCCompiler.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\3.6.0\CMakeCXXCompiler.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\3.6.0\CMakeRCCompiler.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/jharr/Desktop/cxx/spoofydoodle/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\Git\mingw64\bin\cmake.exe" -HC:/Users/jharr/Desktop/cxx/spoofydoodle -BC:/Users/jharr/Desktop/cxx/spoofydoodle/vs --check-stamp-file C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/jharr/Desktop/cxx/spoofydoodle/CMakeLists.txt;C:\Users\jharr\Desktop\cxx\spoofydoodle\CMakeLists.txt;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindBoost.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindGLFW.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindBoost.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindX11.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\3.6.0\CMakeSystem.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\3.6.0\CMakeCCompiler.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\3.6.0\CMakeCXXCompiler.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\3.6.0\CMakeRCCompiler.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/jharr/Desktop/cxx/spoofydoodle/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\Git\mingw64\bin\cmake.exe" -HC:/Users/jharr/Desktop/cxx/spoofydoodle -BC:/Users/jharr/Desktop/cxx/spoofydoodle/vs --check-stamp-file C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/jharr/Desktop/cxx/spoofydoodle/CMakeLists.txt;C:\Users\jharr\Desktop\cxx\spoofydoodle\CMakeLists.txt;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindBoost.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindGLFW.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindBoost.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\FindX11.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\3.6.0\CMakeSystem.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\3.6.0\CMakeCCompiler.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\3.6.0\CMakeCXXCompiler.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\3.6.0\CMakeRCCompiler.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\Git\mingw64\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\jharr\Desktop\cxx\spoofydoodle\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\jharr\Desktop\cxx\spoofydoodle\vs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jharr\Desktop\cxx\spoofydoodle\main.cpp" />
+    <ClCompile Include="C:\Users\jharr\Desktop\cxx\spoofydoodle\core\camera.cpp" />
+    <ClCompile Include="C:\Users\jharr\Desktop\cxx\spoofydoodle\core\glsl_program.cpp" />
+    <ClCompile Include="C:\Users\jharr\Desktop\cxx\spoofydoodle\core\window.cpp" />
+    <ClCompile Include="C:\Users\jharr\Desktop\cxx\spoofydoodle\core\window_cursor.cpp" />
+    <ClCompile Include="C:\Users\jharr\Desktop\cxx\spoofydoodle\core\window_keyboard.cpp" />
+    <ClCompile Include="C:\Users\jharr\Desktop\cxx\spoofydoodle\console\console.cpp" />
+    <ClCompile Include="C:\Users\jharr\Desktop\cxx\spoofydoodle\file_manager\BMP.cpp" />
+    <ClCompile Include="C:\Users\jharr\Desktop\cxx\spoofydoodle\file_manager\file_buffer.cpp" />
+    <ClCompile Include="C:\Users\jharr\Desktop\cxx\spoofydoodle\file_manager\font.cpp" />
+    <ClCompile Include="C:\Users\jharr\Desktop\cxx\spoofydoodle\file_manager\objloader.cpp" />
+    <ClCompile Include="C:\Users\jharr\Desktop\cxx\spoofydoodle\file_manager\texture_cache.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/jharr/Desktop/cxx/spoofydoodle/vs/ZERO_CHECK.vcxproj">
+      <Project>C0116457-ABFE-3453-AD67-8BDB7FF6B5D9</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\BMP.h" />
+    <ClInclude Include="..\include\camera.h" />
+    <ClInclude Include="..\include\console.h" />
+    <ClInclude Include="..\include\file_buffer.h" />
+    <ClInclude Include="..\include\font.h" />
+    <ClInclude Include="..\include\glsl_program.h" />
+    <ClInclude Include="..\include\objloader.h" />
+    <ClInclude Include="..\include\texture.h" />
+    <ClInclude Include="..\include\texture_cache.h" />
+    <ClInclude Include="..\include\window.h" />
+    <ClInclude Include="..\include\window_cursor.h" />
+    <ClInclude Include="..\include\window_keyboard.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
